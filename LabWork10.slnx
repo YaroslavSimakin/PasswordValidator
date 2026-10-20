@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../../PasswordValidatorTests/PasswordValidatorTests.csproj" />
+  <Project Path="LabWork10.csproj" />
+</Solution>
