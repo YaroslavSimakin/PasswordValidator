@@ -25,7 +25,7 @@ jobs:
     - name: Build solution
       run: dotnet build --no-restore --configuration Release
 
-	  - name: Run tests and generate TRX log
+    - name: Run tests and generate TRX log
       run: dotnet test --no-build --configuration Release --logger "trx;LogFileName=test_results.trx"
 
     - name: Test Report
